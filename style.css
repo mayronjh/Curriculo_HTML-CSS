@@ -1,0 +1,401 @@
+:root{
+    --font1-color:#19304F;
+    --linha-color:#222222;
+    --white-color: #FFFFFF;
+}
+
+
+
+#foto {
+    border-radius: 50%;
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 29px;
+    top: 51px;
+    background: url(images/perfil.jpg);
+}
+
+#nome {
+    position: absolute;
+    width: 150px;
+    height: 13px;   
+    left: 94px;
+    top: 51px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: var(--font1-color);
+}
+
+#sub{
+    position: absolute;
+    width: 91px;
+    height: 10px;
+    left: 94px;
+    top: 75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--font1-color);
+}
+
+#grupo1{
+    position: absolute;
+    width: 275px;
+    height: 97px;
+    left: 30px;
+    top: 10px;
+}
+
+#perfil{
+    position: absolute;
+    width: 75px;
+    height: 15px;
+    left: 30px;
+    top: 123px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--font1-color);
+
+    border: 1px solid #FFFFFF;
+}
+
+#sobre{
+    position: absolute;
+    width: 318px;
+    height: 72px;
+    left: 30px;
+    top: 148px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    text-align: justify;
+
+    color:  var(--linha-color);
+
+    border: 1px solid #FFFFFF;
+}
+
+#grupo2{
+    position: absolute;
+    width: 275px;
+    height: 97px;
+    left: 30px;
+    top: 50px;
+}
+
+#experiencia{
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 30px;
+    top: 256px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--font1-color);
+}
+
+#lista_exp{
+    position: absolute;
+    width: 285px;
+    height: 112px;
+    left: 25px;
+    top: 281px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: justify;
+
+    color: var(--linha-color);
+}
+
+#grupo9{
+    position: absolute;
+    width: 275px;
+    height: 97px;
+    left: 30px;
+    top: 220px;
+
+}
+
+#education{
+    position: absolute;
+    width: 194.84px;
+    height: 15px;
+    left: 27px;
+    top: 401px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--font1-color);
+}
+
+#lista_educ{
+    position: absolute;
+    width: 285px;
+    height: 84px;
+    left: 27px;
+    top: 426px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+
+    text-align: justify;
+
+    color: var(--linha-color);
+}
+
+#grupo10{
+    position: absolute;
+    width: 275px;
+    height: 97px;
+    left: 30px;
+    top: 230px;
+}
+
+#projetos{
+    position: absolute;
+    width: 188px;
+    height: 15px;
+    left: 27px;
+    top: 546px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--font1-color)
+}
+
+#lista_projetos{
+    position: absolute;
+    width: 275px;
+    height: 111px;
+    left: 27px;
+    top: 571px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    text-align: justify;
+
+    color: var(--linha-color)
+}
+
+#contato{
+    position: absolute;
+    width: 75px;
+    height: 15px;
+    left: 10px;
+    top: 91px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: var(--white-color, white);
+}
+
+#info{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 0px;
+    top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: var(--white-color, white);
+
+}
+
+#conhecimentos{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 263px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: var(--white-color, white);
+    
+}
+
+#html{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 35px;
+    border-bottom: solid;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--white-color,white);
+}
+
+#css{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 60px;
+    border-bottom: solid;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--white-color,white);
+}
+
+#javascript{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 85px;
+    border-bottom: solid;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--white-color,white);
+}
+
+#react{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 110px;
+    border-bottom: solid;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--white-color,white);
+}
+
+#apirest{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 10px;
+    top: 135px;
+    border-bottom: solid;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: var(--white-color,white);
+}
+
+#github{   
+    position: absolute;
+    left: 40px;
+    right: 17.7%;
+    top: 110px;
+    
+}
+
+#linkedin{
+    position: absolute;
+    left: 10px;
+    right: 17.7%;
+    top: 110px;
+}
+
+#instagram{
+    position: absolute;
+    left: 70px;
+    right: 17.7%;
+    top: 111px;
+}
+
+#retangulo1{
+    position: absolute;
+    width: 200px;
+    height: 900px;
+    left: 420px;
+    top: 0px;
+
+    background: #19304F;
+}
+
+#retangulo2{
+    position: absolute;
+    width: 329px;
+    height: 900px;
+    left: 2px;
+    top: -6px;
+
+    background: #FFFFFF;
+}
